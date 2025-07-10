@@ -15,4 +15,6 @@ public class User
     public required ICollection<Guid> Messages { get; set; }
 
     public required UserRoleOnSite SiteRole { get; set; }
+
+    public required string ActivityToken { get; set; }
 }
