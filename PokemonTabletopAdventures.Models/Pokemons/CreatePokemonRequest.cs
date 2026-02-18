@@ -10,5 +10,5 @@ public class CreatePokemonRequest
     [Required]
     public required Guid TrainerId { get; set; }
     [Required]
-    public required IEnumerable<NewPokemon> Pokemon { get; set; }
+    public required ICollection<NewPokemon> Pokemon { get; set; }
 }

@@ -14,11 +14,11 @@ public class Game
     [Required]
     public required bool IsOnline { get; set; }
     [Required]
-    public required IEnumerable<Trainer> Trainers { get; set; }
+    public required ICollection<Trainer> Trainers { get; set; }
     [Required]
-    public required IEnumerable<Npc> Npcs { get; set; }
+    public required ICollection<Npc> Npcs { get; set; }
     [Required]
-    public required IEnumerable<Setting> Settings { get; set; }
+    public required ICollection<Setting> Settings { get; set; }
     [Required]
     public required ICollection<Log> Logs { get; set; }
 }

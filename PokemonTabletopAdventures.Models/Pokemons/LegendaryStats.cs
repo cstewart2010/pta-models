@@ -13,20 +13,20 @@ public class LegendaryStats
     /// <summary>
     /// The Additional Moves
     /// </summary>
-    public IEnumerable<string> Moves { get; set; } = [];
+    public ICollection<string> Moves { get; set; } = [];
 
     /// <summary>
     /// The Legendary Moves
     /// </summary>
-    public IEnumerable<string> LegendaryMoves { get; set; } = [];
+    public ICollection<string> LegendaryMoves { get; set; } = [];
 
     /// <summary>
     /// The Legendary Passives
     /// </summary>
-    public IEnumerable<string> Passives { get; set; } = [];
+    public ICollection<string> Passives { get; set; } = [];
 
     /// <summary>
     /// The Legendary Features
     /// </summary>
-    public IEnumerable<string> Features { get; set; } = [];
+    public ICollection<string> Features { get; set; } = [];
 }

@@ -13,7 +13,7 @@ public interface IPerson
     /// <summary>
     /// Collection of Trainer Classes for the Trainer
     /// </summary>
-    public IEnumerable<string> TrainerClasses { get; set; }
+    public ICollection<string> TrainerClasses { get; set; }
 
     /// <summary>
     /// The trainers player stats
@@ -23,5 +23,5 @@ public interface IPerson
     /// <summary>
     /// Collection of Trainer Feats
     /// </summary>
-    public IEnumerable<string> Feats { get; set; }
+    public ICollection<string> Feats { get; set; }
 }

@@ -14,18 +14,18 @@ public class Npc
     public required string TrainerName { get; set; }
 
     [Required]
-    public required IEnumerable<string> Feats { get; set; }
+    public required ICollection<string> Feats { get; set; }
 
     [Required]
-    public required IEnumerable<string> TrainerClasses { get; set; }
+    public required ICollection<string> TrainerClasses { get; set; }
 
     public required Stats TrainerStats { get; set; }
 
-    public required IEnumerable<Pokemon> PokemonTeam { get; set; }
+    public required ICollection<Pokemon> PokemonTeam { get; set; }
 
     public required int Level { get; set; }
 
-    public required IEnumerable<TrainerSkill> TrainerSkills { get; set; }
+    public required ICollection<TrainerSkill> TrainerSkills { get; set; }
 
     public int Age { get; set; }
 

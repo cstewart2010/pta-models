@@ -11,6 +11,6 @@ public class Setting
     public required bool IsActive { get; set; }
     public required SettingType Type { get; set; }
     public required string[] Environment { get; set; }
-    public required IEnumerable<Shop> Shops { get; set; }
+    public required ICollection<Shop> Shops { get; set; }
     public required ICollection<SettingParticipant> Participants { get; set; }
 }

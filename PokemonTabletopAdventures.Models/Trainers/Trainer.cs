@@ -13,24 +13,24 @@ public class Trainer
     public required string TrainerName { get; set; }
     public required bool IsGM { get; set; }
     public required bool IsOnline { get; set; }
-    public required IEnumerable<string> Feats { get; set; }
+    public required ICollection<string> Feats { get; set; }
     public required Guid GameId { get; set; }
-    public required IEnumerable<string> Honors { get; set; }
+    public required ICollection<string> Honors { get; set; }
     public required int Money { get; set; }
     public required string Origin { get; set; }
-    public required IEnumerable<string> TrainerClasses { get; set; }
-    public required IEnumerable<Pokemon> PokemonTeam { get; set; }
-    public required IEnumerable<Pokemon> PokemonHome { get; set; }
-    public required IEnumerable<PokedexItem> PokeDex { get; set; }
-    public required IEnumerable<NewPokemon> NewPokemon { get; set; }
+    public required ICollection<string> TrainerClasses { get; set; }
+    public required ICollection<Pokemon> PokemonTeam { get; set; }
+    public required ICollection<Pokemon> PokemonHome { get; set; }
+    public required ICollection<PokedexItem> PokeDex { get; set; }
+    public required ICollection<NewPokemon> NewPokemon { get; set; }
     public required Stats TrainerStats { get; set; }
     public required bool IsComplete { get; set; }
     public required bool IsAllowed { get; set; }
     public required int SeenTotal { get; set; }
     public required int CaughtTotal { get; set; }
     public required int Level { get; set; }
-    public required IEnumerable<Item> Items { get; set; }
-    public required IEnumerable<TrainerSkill> TrainerSkills { get; set; }
+    public required ICollection<Item> Items { get; set; }
+    public required ICollection<TrainerSkill> TrainerSkills { get; set; }
     public required int Age { get; set; }
     public required string Sprite { get; set; }
     public required Gender Gender { get; set; }
